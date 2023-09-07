@@ -1,0 +1,108 @@
+html, body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.move-content {
+    display: flex;
+}
+
+.move-content button, img, h2, p {
+    margin-left: 48px;
+}
+
+.move-content img {
+    margin-top: 48px;
+}
+
+.move-content h2 {
+    margin-top: 35px;
+}
+
+.move-content p {
+    margin-top: 25px;
+}
+
+.move-content button {
+    margin-top: 83px;
+}
+
+.card img {
+    width: 64px;
+}
+
+.card h2 {
+    width: 101px;
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #F2F2F2;
+}
+
+.card p {
+    width: 212px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #FFF;
+    opacity: 0.75;
+}
+
+.card button {
+    width: 146px;
+    height: 48px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 48px;
+    background-color: #F2F2F2;
+}
+
+.sedans button {
+    color: #E28625;
+}
+
+.suvs button {
+    color: #006971;
+}
+
+.luxury button {
+    color: #004140;
+}
+
+.sedans {
+    width: 307px;
+    background-color: #E28625;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.suvs {
+    width: 307px;
+    background-color: #006971;
+}
+
+.luxury {
+    width: 307px;
+    background-color: #004140;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.attribution { 
+    margin-top: 7px;
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+button:hover {
+    border: 3px #FFF solid;
+    background-color: transparent;
+    color: #FFF;
+    cursor: pointer;
+}
